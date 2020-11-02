@@ -1,6 +1,6 @@
 # Interview Hacker
 
-本项目是一个基于 [YAML](https://yaml.org/) 和 [Markdown](https://daringfireball.net/projects/markdown/) 的开放式数据库。
+本项目是一个基于 [YAML](https://yaml.org/) 和 [Markdown](https://daringfireball.net/projects/markdown/) 的开放式数据库，这意味着任何人都可以使用这里已有的数据根据自己的需求做些进一步的扩展，如：<https://fes.ourai.ws/interview/>。
 
 这里收集了一些常见的前端面试题，主要目的有两个：
 
@@ -9,10 +9,8 @@
 
 ## 贡献
 
-> 人人为我，我为人人。
+我们的成长在一定程度上受益于他人的经验总结与分享，因此倡议大家积极丰富题库以帮助到更多的人——人人为我，我为人人。
 
-我们的成长在一定程度上受益于他人的经验总结与分享，因此倡议大家积极丰富题库以帮助到更多的人。
-
-不过，在真正决定提 [PR](https://github.com/f2eso/interview/pulls) 之前，请先仔细阅读《[贡献指南](https://github.com/f2eso/interview/blob/master/.github/CONTRIBUTING.md)》中的内容。
+不过，在真正决定提 [PR](https://github.com/f2eso/interview/pulls) 之前，请先仔细阅读《[贡献指南](https://github.com/f2eso/interview/blob/master/docs/contribution.md)》中的内容。
 
 由衷感谢每一个为本项目作出贡献的人！
