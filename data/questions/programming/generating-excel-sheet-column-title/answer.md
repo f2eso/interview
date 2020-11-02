@@ -1,5 +1,7 @@
 ## 循环方式
 
+用循环实现：
+
 {% highlight js %}
 function convert(num) {
   const result = [];
@@ -9,10 +11,8 @@ function convert(num) {
   do {
     const dividedNum = divided ? divided[0] : num;
 
-    // 将数字处理成 `[商, 余数]` 的格式
     divided = isNaN(dividedNum) || dividedNum < 1 ? [-1, -1] : [~~(dividedNum / 26), dividedNum % 26];
 
-    // 进位的特殊处理
     if (divided[1] === 0) {
       divided = [divided[0] - 1, 26];
     }
@@ -27,6 +27,8 @@ function convert(num) {
 {% endhighlight %}
 
 ## 递归方式
+
+用递归实现：
 
 {% highlight js %}
 function convert(num) {
